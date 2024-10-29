@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const API = axios.create({
-  baseURL: "https://gemai-z919.onrender.com/",
+  baseURL: "https://gemai-z919.onrender.com/api/",
 });
 
 export const GetPosts = async () => await API.get("/post/");
